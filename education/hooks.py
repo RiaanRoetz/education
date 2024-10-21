@@ -15,7 +15,7 @@ required_apps = ["erpnext"]
 add_to_apps_screen = [
     {
         "name": "education",
-        "logo": "/assets/education/frontend/Altrix icons-options_Education.png",
+        "logo": "/assets/education/frontend/logo.png",
         "title": "Education",
         "route": "/drive",
     }
