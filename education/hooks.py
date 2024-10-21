@@ -15,7 +15,14 @@ required_apps = ["erpnext"]
 
 # Includes in <head>
 # ------------------
-
+add_to_apps_screen = [
+    {
+        "name": "education",
+        "logo": "/assets/education/frontend/Altrix icons-options_Education.png",
+        "title": "Education",
+        "route": "/drive",
+    }
+]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/education/css/education.css"
 # app_include_js = "/assets/education/js/education.js"
