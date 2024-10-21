@@ -6,21 +6,18 @@ app_name = "education"
 app_title = "Education"
 app_publisher = "Frappe Technologies Pvt. Ltd."
 app_description = "Education"
-app_icon = "octicon octicon-file-directory"
+app_icon = "/assets/education/frontend/logo.png"
 app_color = "grey"
 app_email = "hello@frappe.io"
 app_license = "GNU GPL V3"
 
 required_apps = ["erpnext"]
-
-# Includes in <head>
-# ------------------
 add_to_apps_screen = [
     {
         "name": "education",
-        "logo": "/assets/education/frontend/Altrix icons-options_Education.png",
+        "logo": "/assets/education/frontend/logo.png",
         "title": "Education",
-        "route": "/drive",
+        "route": "/app/education",
     }
 ]
 # include js, css files in header of desk.html
