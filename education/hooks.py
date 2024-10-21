@@ -12,7 +12,14 @@ app_email = "hello@frappe.io"
 app_license = "GNU GPL V3"
 
 required_apps = ["erpnext"]
-
+add_to_apps_screen = [
+    {
+        "name": "education",
+        "logo": "/assets/education/frontend/Altrix icons-options_Education.png",
+        "title": "Education",
+        "route": "/drive",
+    }
+]
 # Includes in <head>
 # ------------------
 
