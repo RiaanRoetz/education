@@ -17,7 +17,7 @@ add_to_apps_screen = [
         "name": "education",
         "logo": "/assets/education/frontend/logo.png",
         "title": "Education",
-        "route": "/drive",
+        "route": "/app/education",
     }
 ]
 # Includes in <head>
