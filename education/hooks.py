@@ -12,14 +12,16 @@ app_email = "hello@frappe.io"
 app_license = "GNU GPL V3"
 
 required_apps = ["erpnext"]
-add_to_apps_screen = [
-    {
-        "name": "education",
-        "logo": "/assets/education/frontend/education.png",
-        "title": "Education",
-        "route": "/app/education",
-    }
-]
+
+#add_to_apps_screen = [
+#    {
+#        "name": "education",
+#        "logo": "/assets/education/frontend/education.png",
+#        "title": "Education",
+#        "route": "/app/education",
+#    }
+#]
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/education/css/education.css"
 # app_include_js = "/assets/education/js/education.js"
