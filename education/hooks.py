@@ -6,7 +6,7 @@ app_name = "education"
 app_title = "Education"
 app_publisher = "Frappe Technologies Pvt. Ltd."
 app_description = "Education"
-app_icon = "/assets/education/frontend/logo.png"
+app_icon = "/assets/education/frontend/education.png"
 app_color = "grey"
 app_email = "hello@frappe.io"
 app_license = "GNU GPL V3"
@@ -15,7 +15,7 @@ required_apps = ["erpnext"]
 add_to_apps_screen = [
     {
         "name": "education",
-        "logo": "/assets/education/frontend/logo.png",
+        "logo": "/assets/education/frontend/education.png",
         "title": "Education",
         "route": "/app/education",
     }
